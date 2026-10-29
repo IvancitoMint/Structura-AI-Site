@@ -26,7 +26,6 @@ La landing comunica las funciones y los límites actuales del producto. No prese
 │       ├── logo.jpeg
 │       └── logo_alternativo.jpeg
 ├── context.md             # Contexto de producto y criterios de comunicación
-├── social_media.md        # URLs oficiales de redes sociales
 └── README.md
 ```
 
