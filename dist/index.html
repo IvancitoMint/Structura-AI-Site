@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="STRUCTURA AI te ayuda a ordenar las necesidades de tu vivienda, comparar distribuciones y preparar una conversación más clara con profesionales en Colima." />
+    <meta name="theme-color" content="#edf0ec" />
+    <title>STRUCTURA AI — Planea tu vivienda con claridad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <div class="shell header-inner">
+        <a class="brand" href="#inicio" aria-label="STRUCTURA AI, inicio">
+          <img class="brand-mark brand-mark-image" src="src/logo_alternativo.jpeg" alt="" width="44" height="44" />
+          <span>STRUCTURA <b>AI</b></span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-principal" data-menu-button>
+          <span class="sr-only">Abrir menú</span>
+          <span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="nav-principal" aria-label="Navegación principal" data-nav>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#explora">Qué obtienes</a>
+          <a href="#alcance">Alcance</a>
+          <a href="#redes">Redes</a>
+          <a class="button button-small" href="#proximamente">Próximamente <span aria-hidden="true">↓</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section" id="inicio">
+        <div class="shell hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span></span> Planeación preliminar para familias en Colima</div>
+            <h1>Tu casa empieza con un <em>buen plan.</em></h1>
+            <p class="hero-lead">Describe lo que necesitas, compara opciones de distribución y entiende qué se consideró antes de hablar con quien hará realidad tu vivienda.</p>
+            <div class="hero-actions">
+              <a class="button" href="#proximamente">Conoce lo que viene <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="#como-funciona">Conoce el proceso <span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="hero-note"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2 18 6.5v7L10 18l-8-4.5v-7L10 2Z"/><path d="m2.5 6.8 7.5 4.4 7.5-4.4M10 11.2V18"/></svg> Propuestas preliminares de vivienda de una planta. Requieren revisión profesional.</p>
+          </div>
+
+          <div class="plan-demo reveal" aria-label="Demostración esquemática de distribución de vivienda">
+            <div class="demo-toolbar">
+              <div>
+                <span class="demo-kicker">Estudio de distribución</span>
+                <strong id="plan-name">Jardín lateral</strong>
+              </div>
+              <span class="demo-scale">ESC 1:100</span>
+            </div>
+            <div class="plan-canvas" data-plan="lateral">
+              <div class="north"><span>N</span><i></i></div>
+              <div class="lot-label">TERRENO</div>
+              <div class="garden"><span>JARDÍN</span></div>
+              <div class="room room-living"><b>ESTANCIA</b><small>3.80 × 4.20</small></div>
+              <div class="room room-kitchen"><b>COCINA</b><small>2.80 × 3.10</small></div>
+              <div class="room room-bed-a"><b>RECÁMARA 01</b><small>3.20 × 3.50</small></div>
+              <div class="room room-bed-b"><b>RECÁMARA 02</b><small>3.00 × 3.30</small></div>
+              <div class="room room-bath"><b>BAÑO</b><small>1.50 × 2.40</small></div>
+              <div class="room room-patio"><b>PATIO</b><small>servicio</small></div>
+              <div class="dimension dim-top"><span>8.00 m</span></div>
+              <div class="dimension dim-side"><span>16.00 m</span></div>
+            </div>
+            <div class="plan-tabs" role="tablist" aria-label="Tipologías de distribución">
+              <button type="button" role="tab" aria-selected="false" data-plan-tab="hilera">Hilera</button>
+              <button type="button" role="tab" aria-selected="true" data-plan-tab="lateral">Jardín lateral</button>
+              <button type="button" role="tab" aria-selected="false" data-plan-tab="franjas">Dos franjas</button>
+            </div>
+            <p class="demo-caption">Ejemplo ilustrativo · la propuesta real depende de los datos del terreno</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Principios del producto">
+        <div class="shell trust-grid">
+          <div><span>01</span><strong>Información clara</strong><small>Sin jerga innecesaria</small></div>
+          <div><span>02</span><strong>Tres alternativas</strong><small>Para comparar antes de decidir</small></div>
+          <div><span>03</span><strong>Alcance honesto</strong><small>Orientación, no autorización</small></div>
+        </div>
+      </section>
+
+      <section class="section process" id="como-funciona">
+        <div class="shell">
+          <div class="section-heading reveal">
+            <div class="eyebrow"><span></span> Cómo funciona</div>
+            <h2>De una idea suelta a una conversación más concreta.</h2>
+            <p>STRUCTURA AI organiza la información paso a paso para que puedas comparar y tomar mejores decisiones tempranas.</p>
+          </div>
+          <ol class="steps">
+            <li class="step reveal">
+              <div class="step-number">01</div>
+              <div class="step-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 35h7l20-20-7-7L8 28v7Z"/><path d="m24 12 7 7M8 28l7 7"/></svg></div>
+              <h3>Cuéntanos qué necesitas</h3>
+              <p>Describe por texto o voz quiénes vivirán ahí, tu presupuesto, las medidas del terreno y los espacios que imaginas.</p>
+              <span class="step-tag">Texto o voz</span>
+            </li>
+            <li class="step reveal">
+              <div class="step-number">02</div>
+              <div class="step-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="7" y="9" width="34" height="30"/><path d="M23 9v18H7m16 0h18M31 27v12"/></svg></div>
+              <h3>Compara tres distribuciones</h3>
+              <p>Explora opciones de hilera, jardín lateral y dos franjas. Revisa cómo se acomodan los espacios dentro del terreno.</p>
+              <span class="step-tag">Plano 2D + vista 3D</span>
+            </li>
+            <li class="step reveal">
+              <div class="step-number">03</div>
+              <div class="step-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M12 6h18l8 8v28H12V6Z"/><path d="M30 6v9h8M18 24h14M18 30h14M18 36h8"/></svg></div>
+              <h3>Revisa y llévalo a un profesional</h3>
+              <p>Descarga materiales de apoyo para conversar con un arquitecto, Director Responsable de Obra o ingeniero.</p>
+              <span class="step-tag">PDF + DXF</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section deliverables" id="explora">
+        <div class="shell deliverables-grid">
+          <div class="deliverables-intro reveal">
+            <div class="eyebrow light"><span></span> Qué puedes explorar</div>
+            <h2>Más que una imagen bonita: información para entender tu propuesta.</h2>
+            <p>Cada resultado reúne distintas capas de información preliminar. Tú decides qué alternativa vale la pena revisar a detalle.</p>
+            <a class="button button-yellow" href="#proximamente">Disponible próximamente <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="deliverables-list">
+            <article class="deliverable reveal">
+              <span class="deliverable-index">A</span>
+              <div><h3>Distribución preliminar</h3><p>Un plano 2D esquemático para ubicar espacios, recorridos y áreas abiertas dentro de tu terreno.</p></div>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 19 14-14M9 5h10v10"/></svg>
+            </article>
+            <article class="deliverable reveal">
+              <span class="deliverable-index">B</span>
+              <div><h3>Reglas disponibles, citadas</h3><p>Un dictamen que distingue la información consultada y los datos que aún requieren confirmación municipal.</p></div>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 19 14-14M9 5h10v10"/></svg>
+            </article>
+            <article class="deliverable reveal">
+              <span class="deliverable-index">C</span>
+              <div><h3>Materiales de obra negra</h3><p>Una estimación orientativa para dimensionar materiales, con precios de referencia identificados.</p></div>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 19 14-14M9 5h10v10"/></svg>
+            </article>
+            <article class="deliverable reveal">
+              <span class="deliverable-index">D</span>
+              <div><h3>Modelo 3D y acabados</h3><p>Recorre la propuesta, prueba vistas y compara acabados cuando las capacidades del servidor estén disponibles.</p></div>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 19 14-14M9 5h10v10"/></svg>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section transparency" id="alcance">
+        <div class="shell">
+          <div class="section-heading compact reveal">
+            <div class="eyebrow"><span></span> Transparencia desde el inicio</div>
+            <h2>Saber qué es —y qué no es— también forma parte de un buen plan.</h2>
+          </div>
+          <div class="scope-grid">
+            <article class="scope-card reveal">
+              <div class="scope-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 29s10-7.6 10-17A10 10 0 0 0 6 12c0 9.4 10 17 10 17Z"/><circle cx="16" cy="12" r="3"/></svg></div>
+              <h3>Cobertura en expansión</h3>
+              <p>La información normativa se concentra actualmente en municipios de Colima y puede incluir datos orientativos o pendientes de verificación.</p>
+            </article>
+            <article class="scope-card reveal">
+              <div class="scope-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8h22v16H5zM10 13h12M10 18h7"/><path d="M9 5v6M23 5v6"/></svg></div>
+              <h3>Estimación, no precio final</h3>
+              <p>El cálculo considera materiales de obra negra. No incluye mano de obra, instalaciones, trámites ni un presupuesto completo de acabados.</p>
+            </article>
+            <article class="scope-card scope-card-accent reveal">
+              <div class="scope-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 28 9v8c0 7-5.2 10.2-12 12-6.8-1.8-12-5-12-12V9l12-6Z"/><path d="M11 16l3.5 3.5L22 12"/></svg></div>
+              <h3>Revisión profesional necesaria</h3>
+              <p>No sustituye a un arquitecto, DRO, ingeniero ni autoridad. Las propuestas no son planos ejecutivos, cálculo estructural o permisos de construcción.</p>
+            </article>
+          </div>
+          <div class="scope-callout reveal">
+            <span class="callout-mark">!</span>
+            <p><strong>La claridad también es decir hasta dónde llegamos.</strong> La herramienta te ayuda a preparar y comparar; la validación técnica, estructural y municipal siempre corresponde a profesionales y autoridades.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section social-section" id="redes">
+        <div class="shell social-grid">
+          <div class="social-brand reveal">
+            <div class="logo-card">
+              <img src="src/logo.jpeg" alt="Logotipo actual de STRUCTURA AI: Connecting Form &amp; Function" width="640" height="640" loading="lazy" />
+            </div>
+          </div>
+          <div class="social-content reveal">
+            <div class="eyebrow"><span></span> Conecta con STRUCTURA AI</div>
+            <h2>Sigue cómo toma forma el proyecto.</h2>
+            <p>Síguenos para conocer avances del desarrollo, ideas para planear mejor y novedades sobre la apertura al público.</p>
+            <div class="social-list" aria-label="Redes sociales oficiales de STRUCTURA AI">
+              <a class="social-item" href="https://www.instagram.com/ai.structura?dlrf=bWp1OHVsZ3pvcmlq" target="_blank" rel="noopener noreferrer" aria-label="Visitar STRUCTURA AI en Instagram, abre en una pestaña nueva">
+                <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span>
+                <span><strong>Instagram</strong><small>@ai.structura</small></span>
+                <span class="social-status">Visitar <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="social-item" href="https://www.facebook.com/share/19XWa29nNp/" target="_blank" rel="noopener noreferrer" aria-label="Visitar STRUCTURA AI en Facebook, abre en una pestaña nueva">
+                <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 21v-8h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5c-.6-.1-1.7-.2-3-.2-3 0-5 1.8-5 5.2V9H7v4h3v8"/></svg></span>
+                <span><strong>Facebook</strong><small>STRUCTURA AI</small></span>
+                <span class="social-status">Visitar <span aria-hidden="true">↗</span></span>
+              </a>
+              <a class="social-item" href="https://youtube.com/@structuraai-v2k?si=ElR_S2jdM10h6vwQ" target="_blank" rel="noopener noreferrer" aria-label="Visitar STRUCTURA AI en YouTube, abre en una pestaña nueva">
+                <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 8.2a2.8 2.8 0 0 0-2-2C17.2 5.7 12 5.7 12 5.7s-5.2 0-7 .5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2.5 12 29 29 0 0 0 3 15.8a2.8 2.8 0 0 0 2 2c1.8.5 7 .5 7 .5s5.2 0 7-.5a2.8 2.8 0 0 0 2-2 29 29 0 0 0 .5-3.8 29 29 0 0 0-.5-3.8Z"/><path d="m10 9 5 3-5 3V9Z"/></svg></span>
+                <span><strong>YouTube</strong><small>@structuraai-v2k</small></span>
+                <span class="social-status">Visitar <span aria-hidden="true">↗</span></span>
+              </a>
+            </div>
+            <p class="social-note">Estos son los canales oficiales registrados por el equipo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" id="proximamente">
+        <div class="shell cta-grid">
+          <div class="cta-drawing" aria-hidden="true">
+            <svg viewBox="0 0 500 300"><path d="M80 240V116l166-84 173 84v124"/><path d="M125 240V137l121-61 128 61v103M217 240v-71h63v71M125 180h44v-35h-44M326 180h48v-35h-48"/><path d="M48 240h404M63 253h375"/><circle cx="246" cy="32" r="9"/></svg>
+          </div>
+          <div class="cta-copy reveal">
+            <div class="eyebrow light"><span></span> En fase de desarrollo</div>
+            <h2>Muy pronto podrás empezar tu primer plan.</h2>
+            <p>Estamos preparando STRUCTURA AI para abrirlo al público. Cuando esté listo, aquí podrás describir tu vivienda y comparar tus primeras alternativas.</p>
+            <div class="launch-status" role="status">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span><strong>Próximamente abierto al público</strong><small>Seguimos construyendo y validando la experiencia.</small></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand brand-footer" href="#inicio">
+            <img class="brand-mark brand-mark-image" src="src/logo_alternativo.jpeg" alt="" width="44" height="44" loading="lazy" />
+            <span>STRUCTURA <b>AI</b></span>
+          </a>
+          <p>Planeación preliminar de vivienda para familias autoconstructoras.</p>
+        </div>
+        <div class="footer-location"><span>Hecho para</span><strong>Colima, México</strong></div>
+        <nav aria-label="Navegación del pie"><a href="#como-funciona">Cómo funciona</a><a href="#explora">Qué obtienes</a><a href="#alcance">Alcance</a><a href="#redes">Redes</a></nav>
+      </div>
+      <div class="shell footer-bottom"><span>© 2026 STRUCTURA AI</span><span>Propuestas preliminares · Revisión profesional necesaria</span></div>
+    </footer>
+  </body>
+</html>
